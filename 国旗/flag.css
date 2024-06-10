@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.flag {
+    border: 1px solid black;
+}
+
+.japan {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: white;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.uae {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+
+.vertical-stripe {
+    width: 25%;
+    background-color: red;
+}
+
+.stripe-container {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+}
+
+.stripe {
+    flex-grow: 1;
+    width: 100%;
+}
+
+.green {
+    background-color: green;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
